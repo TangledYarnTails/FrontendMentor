@@ -10,7 +10,13 @@ body{
 }
 div{
     background-color: hsl(216, 50%, 16%);
-    width: 80vw;
+    width: 25vw;
+    margin: auto; 
+    padding: 10px;
+}
+h1, h2, h3, h4, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 hr{
     color: hsl(215, 32%, 27%);
@@ -18,9 +24,11 @@ hr{
 h1 {
      color: hsl(0, 0%, 100%);
      font-weight: 600;
+     font-size: 20;
 }
 h3, p{
      color: hsl(215, 51%, 70%);
+     font-size: 18px;
      
 }
 h2{
@@ -33,6 +41,7 @@ h4{
 }
 .thumbnail{
     margin: auto;
-    
-
+}
+section{
+    display: inline;
 }
