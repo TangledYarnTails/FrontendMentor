@@ -1,0 +1,12 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+div{
+    background-color: hsl(216, 50%, 16%);
+}
+hr{
+    background-color: hsl(215, 32%, 27%);
+}
+h1 {
+     color: hsl(0, 0%, 100%)
+}
