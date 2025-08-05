@@ -29,7 +29,8 @@ hr{
 }
 h1 {
      color: hsl(0, 0%, 100%);
-     font-weight: 600;  
+     font-weight: 600;
+     font-size: 18px; 
 }
 p{
      color: hsl(215, 51%, 70%);
@@ -57,4 +58,6 @@ h4{
 .avatar{
     width: 80%;
     border-radius: 15px;
+    border-color: white;
+    
 }
