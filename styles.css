@@ -47,7 +47,8 @@ h4{
 }
 .thumbnail{
     margin: auto;
+    width:fit-content;
 }
-.inline{
+.icon{
     display: inline;
 }
