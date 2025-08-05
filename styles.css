@@ -57,7 +57,7 @@ h4{
 }
 .avatar{
     width: 20px;
-    border-radius: 15px;
-    border-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
     
 }
