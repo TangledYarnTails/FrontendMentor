@@ -50,5 +50,8 @@ h4{
     width: 10vw;
 }
 .icon , p{
-    display: inline;
+    display: block;
+}
+.avatar{
+    width: 20px;
 }
