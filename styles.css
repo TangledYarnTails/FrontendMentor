@@ -12,8 +12,9 @@ body{
 }
 div{
     background-color: hsl(216, 50%, 16%);
-    width: 25vw;
-    margin: auto; 
+    width: 50vw;
+    border-radius: 15px;
+    margin: auto auto; 
     padding: 10px;
     box-shadow: 10px 20px hsl(217, 64%, 6%);
 }
