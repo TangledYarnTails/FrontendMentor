@@ -16,7 +16,7 @@ div{
     height: 60vh;
     border-radius: 15px;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 20px 50px hsl(217, 64%, 6%);
 }
 h1, h2, h3, h4, p{
@@ -46,12 +46,13 @@ h4{
     color: white;
 }
 .thumbnail{
-    margin: auto;
+    margin: 0 auto;
     width: 10vw;
 }
 .icon , p{
     display: block;
 }
 .avatar{
-    width: 20px;
+    width: 30px;
+    border-radius: 15px;
 }
