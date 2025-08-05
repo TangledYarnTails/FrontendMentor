@@ -1,3 +1,10 @@
+
+.outfit-main-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 body{
     background-color: hsl(217, 54%, 11%);
 }
@@ -7,6 +14,15 @@ div{
 hr{
     background-color: hsl(215, 32%, 27%);
 }
+ h1, h2, h3,p{
+    font-family: 'O';
+ }
 h1 {
-     color: hsl(0, 0%, 100%)
+     color: hsl(0, 0%, 100%);
+}
+h3, p{
+     color: hsl(215, 51%, 70%);
+}
+h2{
+    color:  hsl(178, 100%, 50%);
 }
