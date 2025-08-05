@@ -49,14 +49,14 @@ h4{
 }
 .thumbnail{
     margin: 0 auto;
-    width: 10vw;
+    width: 80%;
 }
 
 .inline{
     display: inline;
 }
 .avatar{
-    width: 80%;
+    width: 20px;
     border-radius: 15px;
     border-color: white;
     
