@@ -1,5 +1,4 @@
 
-
 body{
     background-color: hsl(217, 54%, 11%);
     font-family: "Outfit", sans-serif;
@@ -9,7 +8,7 @@ body{
     min-width: 320;
     width: 100vw;
     height: 100vh;
-      font-size: 18px;
+    font-size: 18px;
 }
 div{
     background-color: hsl(216, 50%, 16%);
