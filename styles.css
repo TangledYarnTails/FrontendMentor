@@ -14,6 +14,7 @@ body{
 div{
     background-color: hsl(216, 50%, 16%);
     width: 25vw;
+    height: 60vh;
     border-radius: 15px;
     display: flex;
     margin: auto;
@@ -25,21 +26,20 @@ h1, h2, h3, h4, p{
     margin-bottom: 10px;
 }
 hr{
-    color: hsl(215, 32%, 27%);
+    border: none;
+    background-color: hsl(215, 32%, 27%);
 }
 h1 {
      color: hsl(0, 0%, 100%);
-     font-weight: 600;
-     
+     font-weight: 600;  
 }
 p{
      color: hsl(215, 51%, 70%);
-   
-     
+ 
 }
 h2{
     color:  hsl(178, 100%, 50%);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
    
 }
