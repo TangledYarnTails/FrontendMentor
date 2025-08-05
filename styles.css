@@ -49,15 +49,17 @@ h4{
 }
 .thumbnail{
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .inline{
     display: inline;
+    vertical-align: bottom;
 }
 .avatar{
     width: 20px;
     border-radius: 50%;
-    border: 5px solid white;
-    
+    border: 1px solid white;
+    margin-right: 10px;
 }
