@@ -49,10 +49,9 @@ h4{
     margin: 0 auto;
     width: 10vw;
 }
-.icon , p{
-    display: block;
+
 }
 .avatar{
-    width: 30px;
+    width: 80%;
     border-radius: 15px;
 }
