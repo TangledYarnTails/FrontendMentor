@@ -18,7 +18,7 @@ div{
     display: flex;
     margin: auto;
     padding: 30px;
-    box-shadow: 10px 20px hsl(217, 64%, 6%);
+    box-shadow: 20px 50px hsl(217, 64%, 6%);
 }
 h1, h2, h3, h4, p{
     margin-top: 10px;
@@ -40,6 +40,7 @@ p{
 h2{
     color:  hsl(178, 100%, 50%);
     font-weight: 600;
+    font-size: 18px;
    
 }
 h4{
