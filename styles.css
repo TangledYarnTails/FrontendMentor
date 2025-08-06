@@ -19,6 +19,10 @@ div{
     padding: 20px;
     box-shadow: 20px 40px hsl(217, 64%, 6%);
 }
+section{
+    display: flex;
+    justify-content: space-between
+}
 h1, h2, h3, h4, p{
     margin-top: 10px;
     margin-bottom: 10px;
