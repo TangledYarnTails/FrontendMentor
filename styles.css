@@ -68,12 +68,11 @@ h4:hover, h1:hover{
 .hidden{
     display:none;
     background-color:hsl(178, 100%, 50%);
-    position:absolute;
-    
+    position: absolute;
 }
 .view{
    position: absolute;
-   top: 50%;
+   margin: auto;
 
 }
 
