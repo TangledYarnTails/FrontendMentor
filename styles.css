@@ -69,13 +69,11 @@ h4:hover, h1:hover{
     opacity: 0;
     background-color:hsl(178, 100%, 50%);
     position:absolute;
-    top: 0;
-    left: 0;
+    
 }
 .view{
    position: absolute;
-    top: 50%;
-    left: 50%;
+   
 
 }
 
@@ -98,4 +96,5 @@ h4:hover, h1:hover{
     border-radius: 50%;
     border: 1px solid white;
     margin-right: 10px;
+    vertical-align: middle;
 }
