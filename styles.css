@@ -65,7 +65,14 @@ h4:hover, h1:hover{
     width: 100%;
     border-radius: 15px;
 }
+.hidden{
+    opacity: 0;
+    background-color:hsl(178, 100%, 50%);
+}
 
+.ImgContainer:hover .hidden{
+ opacity: 1;
+}
 
 
 .inline{
