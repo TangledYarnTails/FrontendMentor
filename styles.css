@@ -56,7 +56,7 @@ h4{
 }
 h4:hover, h1:hover{
     color: hsl(178, 100%, 50%);
-    
+    cursor: pointer;
 }
 
 
@@ -66,19 +66,19 @@ h4:hover, h1:hover{
     border-radius: 15px;
 }
 .hidden{
-    opacity: 0;
+    display:none;
     background-color:hsl(178, 100%, 50%);
     position:absolute;
     
 }
 .view{
    position: absolute;
-   
+   top: 50%;
 
 }
 
 .ImgContainer:hover .hidden{
- opacity: 1;
+ display: block;
 }
 
 
