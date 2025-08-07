@@ -69,11 +69,13 @@ h4:hover, h1:hover{
     display:none;
     background-color:hsl(178, 100%, 50%);
     position: absolute;
+    height: 100%;
+    width:100%;
+    top: 0;
+    left: 0;
 }
 .view{
    position: absolute;
-   margin: auto;
-
 }
 
 .ImgContainer:hover .hidden{
