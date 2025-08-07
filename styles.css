@@ -28,7 +28,8 @@ h1, h2, h3, h4, p{
     margin-bottom: 10px;
 }
 hr{
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-color: hsl(215, 32%, 27%);
 }
 h1 {
@@ -59,13 +60,14 @@ h4{
 
 .inline{
     display: inline;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 .icon{
     margin-right: 5px;
+    align-self: center;
 }
 .avatar{
-    width: 20px;
+    width: 40px;
     border-radius: 50%;
     border: 1px solid white;
     margin-right: 10px;
