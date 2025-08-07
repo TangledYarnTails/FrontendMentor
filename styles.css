@@ -54,10 +54,19 @@ h4{
     font-weight: 400;
     color: white;
 }
+h4:hover, h1:hover{
+    color:  hsl(178, 100%, 50%);
+}
+.hide{
+   display:none;
+}
 .thumbnail{
     margin: 0 auto;
     width: 100%;
     border-radius: 15px;
+}
+.thumbnail:hover .hide{
+    display:block;
 }
 
 .inline{
@@ -69,7 +78,7 @@ h4{
     align-self: center;
 }
 .avatar{
-    width: 100px;
+    width: 60px;
     border-radius: 50%;
     border: 1px solid white;
     margin-right: 10px;
