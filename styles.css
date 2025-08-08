@@ -78,10 +78,14 @@ h4:hover, h1:hover{
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color: red;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 15px;
 }
 
 .ImgContainer:hover .overlay {
+    opacity: 0.5;
+}
+.ImgContainer:hover .view {
     opacity: 1;
 }
 
