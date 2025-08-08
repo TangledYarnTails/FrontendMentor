@@ -78,8 +78,7 @@ h4:hover, h1:hover{
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: .05;
-  background-color: hsl(178, 100%, 50%);
+  background-color: hsla(178, 100%, 50%, 50%);
   border-radius: 15px;
 }
 
@@ -89,9 +88,7 @@ h4:hover, h1:hover{
 }
 
 .view{
-    position: absolute;
-    top: 50%;
-    left:50%;
+   margin: auto;
 }
 
 .inline{
