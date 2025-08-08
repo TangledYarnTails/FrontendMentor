@@ -60,6 +60,9 @@ h4:hover, h1:hover{
     cursor: pointer;
 }
 
+.ImgContainer{
+    position: relative;
+}
 
 .thumbnail{
     margin: 0 auto;
@@ -67,6 +70,7 @@ h4:hover, h1:hover{
     border-radius: 15px;
 }
 .overlay {
+    position:absolute;
     top: 0;
   bottom: 0;
   left: 0;
@@ -74,7 +78,7 @@ h4:hover, h1:hover{
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color: chartreuse;
+  background-color: red;
 }
 
 .ImgContainer:hover .overlay {
