@@ -81,10 +81,13 @@ h4:hover, h1:hover{
    position: absolute;
 }
 
-.ImgContainer:hover .hidden{
- opacity: 1;
+.thumbnail:hover .hidden{
+ opacity: .5;
 }
 
+.ImgContainer{
+    background-color: red;
+}
 
 .inline{
     display: inline;
