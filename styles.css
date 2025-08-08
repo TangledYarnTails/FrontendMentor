@@ -66,7 +66,7 @@ h4:hover, h1:hover{
     width: 100%;
     border-radius: 15px;
 }
-.hidden{
+.ImgContainer .hidden{
     opacity :0;
     background-color: hsl(178, 100%, 50%);
     position: absolute;
@@ -81,7 +81,7 @@ h4:hover, h1:hover{
    position: absolute;
 }
 
-.thumbnail:hover .hidden{
+.ImgContainer:hover .hidden{
  opacity: .5;
 }
 
