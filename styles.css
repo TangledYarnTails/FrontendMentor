@@ -121,10 +121,134 @@ position: absolute;
 .footer{
     margin-bottom: 20px;
 }
-@media screen and (max-width: 768px) {
+
+html{
+    overflow: hidden;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    min-width: 320px;
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+}
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    height: 62%;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 20px 40px 10px hsl(217, 64%, 6%);
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1, h2, h3, h4, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+h1 {
+     color: hsl(0, 0%, 100%);
+     font-weight: 600;
+     font-size: 20px; 
+}
+p{
+     color: hsl(215, 51%, 70%);
+     margin-top: 20px;
+     margin-bottom: 20px;
+ 
+}
+h2{
+    color:  hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+h4{
+    font-weight: 400;
+    color: white;
+}
+h4:hover, h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.ImgContainer{
+    position: relative;
+    
+}
+
+.thumbnail{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 15px;
+}
+.overlay {
+    opacity: 0;
+    position:absolute;
+    top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  background-color: hsla(178, 100%, 50%, 50%);
+  border-radius: 15px;
+}
+
+.ImgContainer:hover .overlay {
+    opacity: 1;
+   cursor: pointer;
+}
+
+.view{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.inline{
+    display: inline;
+    vertical-align: middle;
+}
+.icon{
+    margin-right: 4px;
+    align-self: center;
+    vertical-align: middle;
+}
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.footer{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 991px) {
 
     .container {
-       
+       height: 70%; 
         width: 65%;
     }
     }
